@@ -7,6 +7,7 @@
   <title>Digital Learning</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/124fc620c7.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -227,7 +228,8 @@
             facilis. Commodi natus saepe illo consequatur officiis corrupti deleniti temporibus?</p>
         </div>
         <div class="col-lg-6 d-flex justify-content-end align-items-center pe-5">
-          <button type="button" class="btn btn-light  px-5 py-3">Register</button>
+          <button type="button" class="btn btn-light  px-5 py-3" data-bs-toggle="modal"
+            data-bs-target="#exampleModal">Register</button>
         </div>
       </div>
     </section>
@@ -306,19 +308,15 @@
             <h2 class="accordion-header" id="headingOne">
               <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
                 aria-expanded="true" aria-controls="collapseOne">
-                Accordion Item #1
+                What is the difference between flexbox and grid?
               </button>
             </h2>
             <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
               data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse
-                plugin adds the appropriate classes that we use to style each element. These classes control the overall
-                appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with
-                custom
-                CSS or overriding our default variables. It's also worth noting that just about any HTML can go within
-                the
-                <code>.accordion-body</code>, though the transition does limit overflow.
+                Dimensions define the primary demarcation between Flexbox and CSS Grid. Flexbox was designed
+                specifically for one-dimensional layouts, while CSS Grid is engineered to enable two-dimensional
+                layouts. Therefore, CSS Grid can easily render rows and columns simultaneously.
               </div>
             </div>
           </div>
@@ -326,19 +324,17 @@
             <h2 class="accordion-header" id="headingTwo">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                 data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                Accordion Item #2
+                What is the difference between bootstrap and tailwind css?
               </button>
             </h2>
             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
               data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse
-                plugin adds the appropriate classes that we use to style each element. These classes control the overall
-                appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with
-                custom
-                CSS or overriding our default variables. It's also worth noting that just about any HTML can go within
-                the
-                <code>.accordion-body</code>, though the transition does limit overflow.
+                Tailwind CSS was initially developed by Adam Wathan, and the first version was released back on the 1st
+                of November, 2017. Tailwind CSS is a utility-first CSS framework for building custom user interfaces
+                rapidly and efficiently. It is an inline styling used to achieve a sleek interface without writing code
+                for your own CSS. Tailwind CSS offers customizability and flexibility to transform the appearance and
+                feel of the elements.
               </div>
             </div>
           </div>
@@ -346,19 +342,16 @@
             <h2 class="accordion-header" id="headingThree">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                 data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                Accordion Item #3
+                What is css box model?
               </button>
             </h2>
             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
               data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse
-                plugin adds the appropriate classes that we use to style each element. These classes control the overall
-                appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with
-                custom
-                CSS or overriding our default variables. It's also worth noting that just about any HTML can go within
-                the
-                <code>.accordion-body</code>, though the transition does limit overflow.
+                The CSS box model is a container that contains multiple properties including borders, margin, padding,
+                and the content itself. It is used to create the design and layout of web pages. It can be used as a
+                toolkit for customizing the layout of different elements. The web browser renders every element as a
+                rectangular box according to the CSS box model. Box-Model has multiple properties in CSS.
               </div>
             </div>
           </div>
@@ -366,19 +359,15 @@
             <h2 class="accordion-header" id="headingFour">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                 data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                Accordion Item #4
+                What is semantic tag?
               </button>
             </h2>
             <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
               data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse
-                plugin adds the appropriate classes that we use to style each element. These classes control the overall
-                appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with
-                custom
-                CSS or overriding our default variables. It's also worth noting that just about any HTML can go within
-                the
-                <code>.accordion-body</code>, though the transition does limit overflow.
+                The HTML semantics refers to the tags that provide meaning to an HTML page rather than just
+                presentation. It makes HTML more comprehensible by better defining the different sections and layout of
+                web pages. This article will focus on ‘What is Semantics in HTML’.
               </div>
             </div>
           </div>
@@ -415,7 +404,38 @@
     <p>Kandirpar, Cumilla</p>
     <p>Bangladesh</p>
     <p>Privacy policy | Terms of use</p>
+    <div class="social-media text-white d-flex justify-content-center">
+      <a href="http://facebook.com"><i class="p-3 bg-info rounded-circle m-2 fa fa-facebook"></i></a>
+      <a href="http://twitter.com"><i class="p-3 bg-info rounded-circle m-2 fa fa-twitter"></i></a>
+      <a href="http://facebook.com"><i class="p-3 bg-info rounded-circle m-2 fa fa-facebook"></i></a>
+      <a href="http://twitter.com"><i class="p-3 bg-info rounded-circle m-2 fa fa-twitter"></i></a>
+
+    </div>
   </footer>
+
+
+  <!-- Button trigger modal -->
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Register</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          The final form is not ready. Plz keep patience.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
 
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
